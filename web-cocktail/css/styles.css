@@ -1,0 +1,105 @@
+body {
+    background: url(../images/header-section.jpg) no-repeat fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0 auto;
+
+}
+
+.section-container {
+    margin: 10px 20% 10px 20%;
+}
+
+
+/* sur chaque section,tu peux utiliser soit un flexbox,soit un grid,soit autre chose... */
+header {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+section#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
+section#about div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    flex: 1;
+}
+
+section#about div h3 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+/* classe pour la section "about" */
+
+.opening {
+    background: url(../images/1.jpg);
+}
+.mention {
+    background: url(../images/2.jpg);
+}
+.cocktails {
+    background: url(../images/3.jpg);
+}
+
+/* happy hour */
+
+section#cocktails {
+    background: url(../images/cocktail-section.jpg) fixed;
+    padding: 20px;
+}
+
+section#cocktails img{
+    height: 120px;
+
+}
+
+.first-row {
+    display: flex;
+
+}
+.second-row {
+    display: flex;
+}
+
+.cocktail-item {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    flex: 0.5;
+    margin: 10px;
+}
+
+.sunmoon-banner {
+    background: url(../images/orange-banner.jpg);
+}
+
+.mentalux-banner {
+    background: url(../images/mentalux-banner.jpg);
+}
+
+.coco-banner {
+    background: url(../images/coco-banner.jpg);
+}
+
+.citrinus-banner {
+    background: url(../images/citrinus-banner.jpg);
+}
+
+.spicherry-banner {
+    background: url(../images/cherry-banner.jpg);
+}
